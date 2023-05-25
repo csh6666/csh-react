@@ -1,0 +1,44 @@
+.App-main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   color: #fff;
+   background-color: #fff;
+
+   .left-part {
+      width: 16rem;
+      height: 100%;
+
+      .layaside {
+         position: absolute;
+         z-index: 1;
+         left: 16rem;
+         top: 3px;
+         height: 40px;
+         padding: 4px 5px;
+         border-radius: 0;
+      }
+
+      .menu-list {
+         width: 16rem;
+         height: 100%;
+      }
+   }
+
+   .right-part {
+      height: 100%;
+      flex: 1;
+      .header-title{
+         width: 100%;
+         height: 50px;
+         line-height: 50px;
+         background-color: black;
+         padding-left: 3rem;
+      }
+      .main{
+         color:#000;
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+   },
+   "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+   },
+   "extends": [
+      "react-app",
+      "react-app/jest"
+   ],
+   "rules": {
+      "semi": [
+         0
+      ],
+      "react/jsx-filename-extension": [
+         0
+      ]
+   }
+}
